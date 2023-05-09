@@ -1,5 +1,6 @@
 'use strict'
-
+// to jest stała
+//sss
 const btn = document.querySelector("header a");
 const h1 = document.querySelector("header h1");
 const h1text = h1.innerText;
@@ -13,3 +14,4 @@ btn.addEventListener("click", () => {
     else
         h1.innerHTML = 'Bedzie Pan zadowolony ;)'
 })
+
